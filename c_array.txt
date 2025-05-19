@@ -1,0 +1,11 @@
+//online compiler c run programming
+#include <stdio.h>
+int main()
+{
+    char arr[20]="coding";
+    char x[10]={'h','A','p','p','y','\0'};
+    printf("%c",x[4]);
+    printf("\n%s\n",arr);
+    printf("\n%s",x);
+    return 0;
+}
