@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {    
+
+    int a=30;
+    float x=(a*1.8)+32;
+    printf("%f",x);
+    
+    int b=30;
+    float y=(b+273.15);
+    printf("\n%f",y);
+return 0; 
+}

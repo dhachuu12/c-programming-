@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {    
+
+    int a=3,b=4;
+    
+    printf("area of the rectangle =%d\n",a*b);
+    int p=2*(a+b);
+    printf("\nperimeter =%d",p);
+    
+ return 0;
+}
