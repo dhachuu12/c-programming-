@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int x;
+    int factorial=1;
+    scanf("%d",&x);
+    printf("Enter a number: %d\n",x);
+    
+    while (x >=1) {
+        factorial *=x;
+            printf("%d\n", factorial);
+        x--;
+    }
+    printf("Factorial: %d", factorial);
+    return 0;
+}
