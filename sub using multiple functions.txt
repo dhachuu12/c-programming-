@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+int sub(){
+    int x,y;
+    scanf("%d %d",&x,&y);
+    int diff=x-y;
+    return diff;
+}
+int main()
+{
+    int x=sub();
+    printf("%d",x);
+    printf("%d",sub());
+    return 0;
+}

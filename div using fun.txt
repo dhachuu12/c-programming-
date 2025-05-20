@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+int div(){
+    int x,y;
+    scanf("%d %d",&x,&y);
+    int div=x/y;
+    return div;
+}
+int main()
+{
+    int x=div();
+    printf("%d",x);
+    return 0;
+}

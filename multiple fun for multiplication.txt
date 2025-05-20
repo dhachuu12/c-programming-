@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+int mul(){
+    int x,y;
+    scanf("%d %d",&x,&y);
+    int pro=x*y;
+    return pro;
+}
+int main()
+{
+    int x=mul();
+    printf("%d",x);
+        printf("%d",mul());
+    return 0;
+}
