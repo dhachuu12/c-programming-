@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include<math.h>
+
+int sub(int n ){
+    if(n==0) return 0;
+    else return n-sub(n-1);
+}
+int main(){
+    
+ int x=sub(5);
+ printf("%d",x);
+
+}

@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+
+int tribo(int a){
+   if(a==0) return 0;
+   if(a==1) return 1;
+   if(a==2) return 1;
+   return tribo(a-1)+ tribo(a-2)+tribo(a-3);
+}
+int main()
+{
+    printf("%d",tribo(7));
+}

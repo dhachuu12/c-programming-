@@ -1,0 +1,20 @@
+
+#include <stdio.h>
+#include<math.h>
+void numbers(int x){
+    if(x==0) return;
+    printf("%d  ",x);
+    numbers(x-1);
+}
+void numbersdesc(int x){
+    if(x==5) return;
+    numbersdesc(x-1);
+    printf("%d  ",x);
+    
+}
+
+int main()
+{
+    numbers(10);
+    numbersdesc(10);
+}

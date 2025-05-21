@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include<math.h>
+
+int div(int n ){
+    if(n==1) return n;
+    else return n/ div(n-1);
+}
+int main(){
+    
+ int x=div(5);
+ printf("%d",x);
+
+}

@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include<math.h>
+
+int fac(int n ){
+    if(n==1) return n;
+    else return n*fac(n-1);
+}
+int main(){
+    
+ int x=fac(4);
+ printf("%d",x);
+
+}

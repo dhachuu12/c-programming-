@@ -1,0 +1,13 @@
+
+#include <stdio.h>
+
+void even(int n,int m){
+    if(n>m) return;
+    printf("%d  ",n);
+    even(n+2,m);
+}
+
+int main()
+{
+    even(10,30);
+}
