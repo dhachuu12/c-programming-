@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main(){
+int a=7;
+int * p=&a;
+printf("%d %d",p,a);
+a=5;
+printf("\n%d %d",p,a);
+}
